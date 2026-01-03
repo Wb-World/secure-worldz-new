@@ -6,7 +6,3 @@ menuToggle.addEventListener("click", () => {
   menuToggle.classList.toggle("open");
 });
 
-
-
-
-

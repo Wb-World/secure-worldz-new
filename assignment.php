@@ -7,60 +7,39 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assignment.css">
+<link rel="stylesheet" href="dashboard.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
 <div class="dashboard">
-
-  <!-- SIDEBAR -->
- <!-- Sidebar -->
-<aside class="sidebar">
-  <div class="logo">P</div>
-
-  <ul class="menu">
-
-    <li class="active">
-      <a href="dashboard.html">
-        <i class="fa-solid fa-house"></i>
-        <span>Dashboard</span>
-      </a>
-    </li>
-
-    <li>
-      <a href="assignment.html">
-        <i class="fa-solid fa-book"></i>
-        <span>Assignment</span>
-      </a>
-    </li>
-
-    <li>
-      <a href="aboutus.html">
-        <i class="fa-solid fa-circle-info"></i>
-        <span>About Us</span>
-      </a>
-    </li>
-
-    <li>
-      <a href="contactus.html">
-        <i class="fa-solid fa-phone"></i>
-        <span>Contact Us</span>
-      </a>
-    </li>
-
-    <li>
-      <a href="ourcourse.html
-      ">
-        <i class="fa-solid fa-graduation-cap"></i>
-        <span>Courses</span>
-      </a>
-    </li>
-
-  </ul>
-</aside>
-
-
+  <aside class="sidebar">
+      <div class="close-btn" id="closeBtn">
+          <i class="fa-solid fa-xmark"></i>
+      </div>
+      <ul class="menu">
+          <li class="active">
+              <a href="dashboard.php" style="color: inherit; text-decoration: none;">
+                  <i class="fa-solid fa-house"></i>
+                  <span>Dashboard</span>
+              </a>
+          </li>
+          <li>
+              <a href="assignment.php" style="color: inherit; text-decoration: none;">
+                  <i class="fa-solid fa-book"></i>
+                  <span>Assignment</span>
+              </a>
+          </li>
+         
+          <li>
+              <a href="ourcourse.php" style="color: inherit; text-decoration: none;">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span>Courses</span>
+              </a>
+          </li>
+      </ul>
+  </aside>
   <!-- MAIN -->
   <main class="main">
 
